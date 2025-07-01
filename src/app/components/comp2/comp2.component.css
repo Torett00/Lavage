@@ -1,0 +1,67 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+/* **************************** cafes **************************** */
+.CAFÉS {
+    height: 30vh;
+}
+
+.cafedetails {
+    display: flex;
+}
+
+.menu {
+    width: 60%;
+}
+
+.imagecafe {
+    width: 40%;
+    height: 30vh;
+    background-image: url("../../../assets/images/cofelavage1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+}
+
+/* **************************** thes **************************** */
+.THÉS {
+    height: 25vh;
+    display: flex;
+}
+
+.imagethes {
+    width: 40%;
+    height: 25vh;
+    background-image: url("../../../assets/images/cofelavage2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 5%;
+    top: 15%;
+}
+
+/* **************************** BOISSONS **************************** */
+.BOISSONS {
+    height: 25vh;
+}
+
+.imageBOISSONS {
+    width: 40%;
+    height: 30vh;
+    background-image: url("../../../assets/images/boisson1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+}
+
+/* **************************** end **************************** */
+.end {
+    height: 10vh;
+}

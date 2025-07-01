@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+.main {
+    background-image: url("assets/images/backlavage1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: 1;
+    padding: 4%;
+}
+
+ul {
+    color: white !important;
+}
+
+.titre {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #2B8BB8 !important;
+    text-align: center;
+}
+
+.categorie {
+    color: black !important;
+    background-color: #A0C8D9;
+    margin-bottom: 8px;
+    padding: 2px 6px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.produit {
+    color: rgb(255, 255, 255) !important;
+    font-size: clamp(8px, 2vw, 12px);
+}
+
+.prix {
+    font-weight: bold;
+     font-size: clamp(12px, 1vw, 14px);
+    color: rgb(255, 255, 255) !important;
+}
+
+.produitdetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    border-radius: 25%;
+}

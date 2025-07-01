@@ -1,0 +1,51 @@
+.top,
+.bottom {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.image {
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 100%;
+
+}
+
+.info {
+    color: white;
+    text-align: center;
+}
+
+.infoitem {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infologo1 {
+    background-image: url("../../../assets/images/location.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 30px;
+    height: 30px;
+    z-index: 1000;
+}
+
+.infologo2 {
+    background-image: url("../../../assets/images/phone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+}
