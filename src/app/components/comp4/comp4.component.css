@@ -1,0 +1,54 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+/* **************************** cafes **************************** */
+.CAFÉS {
+    height: 30vh;
+}
+
+.cafedetails {
+    display: flex;
+}
+
+.menu {
+    width: 60%;
+}
+
+.imagecafe {
+    width: 40%;
+    height: 30vh;
+    background-image: url("../../../assets/images/goufreelavage1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+    margin-top: 15%;
+}
+
+/*  crepe */
+.crepe {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sale,
+.sale {
+    width: 44%;
+}
+
+h3 {
+    color: white;
+    margin-top: 10px;
+    margin: 4px 0px;
+}
+ul{
+    font-size: 8px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+}

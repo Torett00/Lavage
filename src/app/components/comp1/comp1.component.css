@@ -28,7 +28,8 @@ h1 {
 
 .infoitem {
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 6px;
+    /* justify-content: space-evenly; */
 }
 
 .infologo1 {
@@ -48,4 +49,12 @@ h1 {
     background-position: center center;
     width: 25px;
     height: 25px;
+}
+ul{
+    font-size: 8px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+}
+.infodescription{
+    font-size: 14px;
 }

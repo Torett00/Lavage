@@ -1,0 +1,32 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+/* **************************** cafes **************************** */
+.cafedetails {
+    display: flex;
+}
+
+.menu {
+    width: 60%;
+}
+
+.imagecafe {
+    width: 40%;
+    /* height: 30vh; */
+    background-image: url("../../../assets/images/sandiwish.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+    margin-top: 15%;
+}
+ul{
+    font-size: 8px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+}

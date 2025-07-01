@@ -1,0 +1,25 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+/* **************************** cafes **************************** */
+
+.cafedetails {
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+}
+.crepe{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ul{
+    margin-bottom: 2px;
+}

@@ -5,11 +5,14 @@
     background-position: center center;
     height: 100vh;
     z-index: 1;
+    overflow-x: hidden;
     padding: 4%;
+    overflow-y: hidden;
 }
 
 ul {
     color: white !important;
+    margin-bottom: 0px;
 }
 
 .titre {
@@ -24,19 +27,20 @@ ul {
     background-color: #A0C8D9;
     margin-bottom: 8px;
     padding: 2px 6px;
-    width: 100px;
+    width: 120px;
     text-align: center;
     border-radius: 10px;
+    font-size: clamp(12px, 2vw, 16px);
 }
 
 .produit {
     color: rgb(255, 255, 255) !important;
-    font-size: clamp(8px, 2vw, 12px);
+    font-size: clamp(9px, 2vw, 14px);
 }
 
 .prix {
     font-weight: bold;
-     font-size: clamp(12px, 1vw, 14px);
+    font-size: clamp(12px, 1vw, 14px);
     color: rgb(255, 255, 255) !important;
 }
 
