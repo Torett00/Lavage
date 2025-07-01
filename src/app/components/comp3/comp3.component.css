@@ -1,0 +1,60 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+/* **************************** cafes **************************** */
+.CAFÉS {
+    height: 40vh;
+}
+
+.cafedetails {
+    display: flex;
+}
+
+.menu {
+    width: 60%;
+}
+
+.imagecafe {
+    width: 40%;
+    height: 30vh;
+    background-image: url("../../../assets/images/juslavage1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+}
+
+/* **************************** thes **************************** */
+.THÉS {
+    height: 60vh;
+    display: flex;
+}
+ul{
+    margin-bottom: 2px;
+}
+
+.imagethes {
+    width: 50%;
+    height: 30vh;
+    background-image: url("../../../assets/images/cock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 5%;
+    top: 15%;
+}
+.produit{
+    font-size: 12px;
+}
+/* **************************** BOISSONS **************************** */
+
+
+/* **************************** end **************************** */
+.end {
+    height: 10vh;
+}
