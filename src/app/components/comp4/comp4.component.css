@@ -6,7 +6,6 @@
     background-position: right center;
 }
 
-/* **************************** cafes **************************** */
 .CAFÉS {
     height: 30vh;
 }
@@ -30,7 +29,6 @@
     margin-top: 15%;
 }
 
-/*  crepe */
 .crepe {
     display: flex;
     justify-content: space-evenly;
@@ -47,7 +45,8 @@ h3 {
     margin-top: 10px;
     margin: 4px 0px;
 }
-ul{
+
+ul {
     font-size: 8px;
     margin-bottom: 2px;
     padding-left: 4px;

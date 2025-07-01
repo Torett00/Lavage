@@ -6,8 +6,6 @@
     background-position: right center;
 }
 
-/* **************************** cafes **************************** */
-
 .cafedetails {
     display: flex;
 }
@@ -15,11 +13,13 @@
 .menu {
     width: 100%;
 }
-.crepe{
+
+.crepe {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-ul{
+
+ul {
     margin-bottom: 2px;
 }

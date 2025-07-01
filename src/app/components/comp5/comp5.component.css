@@ -1,0 +1,48 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.top {
+    height: 45vh;
+    display: flex;
+}
+
+
+.left {
+    background-image: url("../../../assets/images/mojitos1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: right center;
+    right: 5%;
+    width: 40%;
+    height: 100%;
+}
+
+.right {
+    width: 60%;
+}
+
+.buttom {
+    height: 45vh;
+}
+
+ul {
+    font-size: 9px;
+    margin-bottom: 2px;
+    padding-left: 14px;
+}
+
+.LES_GLACES {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.glaceitem,
+.Pistache {
+    width: 48%;
+}

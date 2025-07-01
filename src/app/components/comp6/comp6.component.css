@@ -6,7 +6,6 @@
     background-position: right center;
 }
 
-/* **************************** cafes **************************** */
 .cafedetails {
     display: flex;
 }
@@ -17,7 +16,6 @@
 
 .imagecafe {
     width: 40%;
-    /* height: 30vh; */
     background-image: url("../../../assets/images/sandiwish.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -25,7 +23,8 @@
     left: 5%;
     margin-top: 15%;
 }
-ul{
+
+ul {
     font-size: 8px;
     margin-bottom: 2px;
     padding-left: 4px;

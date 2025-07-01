@@ -1,0 +1,55 @@
+.logo {
+    height: 10vh;
+    background-image: url("../../../assets/images/LavageLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.CAFÉS {
+    height: 40vh;
+}
+
+.cafedetails {
+    display: flex;
+}
+
+.menu {
+    width: 60%;
+}
+
+.imagecafe {
+    width: 40%;
+    height: 30vh;
+    background-image: url("../../../assets/images/juslavage1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5%;
+}
+
+.THÉS {
+    height: 60vh;
+    display: flex;
+}
+
+.imagethes {
+    width: 50%;
+    height: 30vh;
+    background-image: url("../../../assets/images/cock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 5%;
+    top: 15%;
+}
+
+.end {
+    height: 10vh;
+}
+
+ul {
+    font-size: 9px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+}
