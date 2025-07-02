@@ -46,3 +46,18 @@ ul {
 .Pistache {
     width: 48%;
 }
+
+.containerImage {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 0%;
+  
+    opacity: 0.5;
+}
+.top{
+    padding-top: 8%;
+}
+.LES_GLACES{
+    padding-top: 10%;
+}

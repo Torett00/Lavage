@@ -4,6 +4,16 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center;
+   
+    
+    
+}
+.containerImage {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: 10%;
+    opacity: 0.5;
 }
 
 .cafedetails {
@@ -22,4 +32,37 @@
 
 ul {
     margin-bottom: 2px;
+}
+.sale{
+    position: relative;
+    left: -9%;
+}
+.sucree{
+    position: relative;
+    left: -2%;
+}
+.prix2{
+    position: relative;
+    left: 20px;
+
+    color: white;
+    font-weight: bold;
+    font-size: clamp(12px, 1vw, 14px);
+    color: rgb(255, 255, 255) !important;
+}
+.prix0{
+    position: relative;
+    left: -20px;
+    
+    color: white;
+    font-weight: bold;
+    font-size: clamp(12px, 1vw, 14px);
+    color: rgb(255, 255, 255) !important;
+}
+.CAFÉS{
+    padding-top:10% ;
+}
+.crepe{
+   padding-top:7% ; 
+   padding-left: 3%;
 }
